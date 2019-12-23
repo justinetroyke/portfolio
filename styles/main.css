@@ -1,0 +1,71 @@
+body{
+  background-color: #261758;
+}
+
+#welcome-header {
+  padding-top: 3cm;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  margin-left: 2cm;
+}
+
+#welcome {
+  text-align: right;
+  position: relative;
+}
+
+#name {
+  text-align: center;
+  position: relative;
+}
+
+#title {
+  text-align: left;
+  position: relative;
+}
+
+#profile-picture {
+  background-image: url('../assets/squegy-portrait.jpg');
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 20px;
+  border: 2px solid red;
+  /* clip-path: polygon(50% 0, 100% 0, 100% 39%, 65% 80%, 50% 90%, 50% 90%, 40% 95%, 35% 90%, 30% 85%, 25% 80%, 20% 75%, 15% 70%, 15% 55%, 19% 33%); */
+}
+
+h1{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 3000;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  color: #49BEAA;
+  line-height: 80%;
+  letter-spacing: -2px;
+  display: inline-block;
+  font-size: 6rem;
+  margin: 0;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h3{
+  color: white;
+  padding-top: 1.5cm;
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#title p{
+  color: white;
+  font-size: .8rem;
+  width: 400px;
+  word-wrap: break-word;
+}
