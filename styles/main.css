@@ -1,4 +1,4 @@
-body{
+/* body{
   background-color: #261758;
 }
 
@@ -12,40 +12,56 @@ body{
 
 #welcome {
   text-align: right;
-  position: relative;
+  /* position: relative; */
 }
 
 #name {
   text-align: center;
-  position: relative;
+  /* position: relative; */
 }
 
 #title {
   text-align: left;
-  position: relative;
+  /* position: relative; */
 }
 
-#profile-picture {
-  background-image: url('../assets/squegy-portrait.jpg');
-  position: absolute;
-  right: 0;
+/* #picture-container {
+  /* background-image: url('../assets/squegy-portrait.jpg'); */
+  /* background-repeat: no-repeat;
+  background-size: 600px 100px;
   top: 0;
-  border-radius: 20px;
-  border: 2px solid red;
+  right: 0; */
+  /*
+  top: 0;
+  border-radius: 20px; */
+  /* border: 2px solid red;
+  color: white;
+  position: relative; */
   /* clip-path: polygon(50% 0, 100% 0, 100% 39%, 65% 80%, 50% 90%, 50% 90%, 40% 95%, 35% 90%, 30% 85%, 25% 80%, 20% 75%, 15% 70%, 15% 55%, 19% 33%); */
+} */
+
+#picture-container {
+    position: relative;
 }
+
+#dropin img {
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
 
 h1{
-  color: white;
   font-size: 1.2rem;
-  font-weight: 3000;
+  /* font-weight: 3000; */
   display: inline-block;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
 h2{
-  color: #49BEAA;
+  /* color: #49BEAA; */
   line-height: 80%;
   letter-spacing: -2px;
   display: inline-block;
@@ -55,7 +71,7 @@ h2{
 }
 
 h3{
-  color: white;
+  color: red;
   padding-top: 1.5cm;
   font-size: 1rem;
   display: inline-block;
@@ -64,7 +80,7 @@ h3{
 }
 
 #title p{
-  color: white;
+  color: black;
   font-size: .8rem;
   width: 400px;
   word-wrap: break-word;
